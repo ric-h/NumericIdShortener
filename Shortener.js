@@ -7,7 +7,8 @@ class IDShortener {
   
   shortID(id) {
     this.ID = id;
-    return this.__encodeShort(this.ID);
+    this.Code = this.__encodeShort(this.ID);
+    return this.Code;
   }
   
   unshortID(shortCode) {
