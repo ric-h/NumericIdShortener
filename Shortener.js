@@ -16,6 +16,8 @@ class IDShortener {
     return this.ID;
   }
   
+  //-- internal methods --
+  
   __len() {
     return this.__word.length - 1;
   }
@@ -25,7 +27,6 @@ class IDShortener {
   }
   
   __encodeShort(token) {
-
     //Step 1
     //token in range
     let aux1 = token;
