@@ -5,13 +5,13 @@ class IDShortener {
     this.__word = " aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTwWuUxXyYzZ123456789";
   }
   
-  shortID(id) {
+  shortenID(id) {
     this.ID = id;
     this.Code = this.__encodeShort(this.ID);
     return this.Code;
   }
   
-  unshortID(shortCode) {
+  unshortenID(shortCode) {
     this.Code = shortCode;
     this.ID = this.__decodeShort();
     return this.ID;
