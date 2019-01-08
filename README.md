@@ -1,7 +1,7 @@
 # NumericIdShortener
 Javascript two way numeric IDs shortener
 
-# Usage
+# Usage Example
 ```javascript
 var shortner = new IDShortener();
 var encoded = shortner.shortID(68598946896765); //encode id
