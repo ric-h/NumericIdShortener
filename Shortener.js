@@ -2,7 +2,7 @@ class IDShortener {
   constructor() {
     this.ID = null;
     this.Code = null;
-    this.__word = " aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTwWuUxXyYzZ123456789"; //this string can be scrambled to give different results
+    this.__word = " aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTwWuUxXyYzZ123456789"; //this string can be scrambled to return a personalized result
   }
   
   shortenID(id) {
